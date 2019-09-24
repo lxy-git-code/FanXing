@@ -17,7 +17,7 @@ public String toString() {
 
 public static void main(String[] args) {
 	Innerclass innerclass = new Sequence().new Innerclass();
-	new OneTuple<Sequence.Innerclass>(innerclass);
+	OneTuple<Innerclass> oneTuple = new OneTuple<Sequence.Innerclass>(innerclass);
 	System.out.println(innerclass);
 }
 }

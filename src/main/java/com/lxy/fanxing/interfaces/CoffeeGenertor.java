@@ -1,4 +1,4 @@
-package com.lxy.fanxing.generic;
+package com.lxy.fanxing.interfaces;
 
 import java.util.Iterator;
 import java.util.Random;
@@ -7,10 +7,10 @@ class CoffeeGenertor implements Generator<Coffee>,Iterable<Coffee> {
 
 //
 private Class[] types= {
-com.lxy.fanxing.generic.Coffee.Americano.class,
-com.lxy.fanxing.generic.Coffee.Cappuccion.class,
-com.lxy.fanxing.generic.Coffee.Latte.class,
-com.lxy.fanxing.generic.Coffee.Mocha.class
+com.lxy.fanxing.interfaces.Coffee.Americano.class,
+com.lxy.fanxing.interfaces.Coffee.Cappuccion.class,
+com.lxy.fanxing.interfaces.Coffee.Latte.class,
+com.lxy.fanxing.interfaces.Coffee.Mocha.class
 };
 
 private static  Random rand=new Random(47);

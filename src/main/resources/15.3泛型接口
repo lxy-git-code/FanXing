@@ -1,0 +1,5 @@
+类与接口都是将泛型列在类名之后
+public class ClassName<T>
+public interface InterfaceName<T>
+泛型至于构造器类名之后
+Constructor<T>();

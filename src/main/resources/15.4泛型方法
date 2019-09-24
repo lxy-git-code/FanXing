@@ -1,0 +1,2 @@
+将泛型列于方法的返回值之前
+public <T> void methodName();
