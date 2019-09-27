@@ -1,0 +1,10 @@
+//泛型擦除导致泛型失去类了某些操作能力
+new T()
+new T[2];
+instanceof T
+这三个都无法使用
+
+泛型补偿提供了Class<T>类型，
+利用该类型变量clazzt.isInstance(obj)判断是否是该类型实例
+clazzt.newInstance()利用该类型无参构造器创建对象;
+
